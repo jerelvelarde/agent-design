@@ -1,0 +1,11 @@
+{
+  "name": "agent-design",
+  "description": "Design and critique AI agent experiences: behavior contracts, agent interfaces and generative UI, and agent-readable pages and tools. One skill, four commands, 36 named tells, and a markup checker.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jerel Velarde"
+  },
+  "repository": "https://github.com/jerelvelarde/agent-design",
+  "license": "MIT",
+  "skills": "./skills/"
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book a table at Osteria Lupo</title>
+  <meta name="description" content="Reserve a table at Osteria Lupo. Dinner from 5pm, Tuesday to Sunday.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Osteria Lupo",
+    "servesCuisine": "Italian",
+    "openingHours": "Tu-Su 17:00-22:00",
+    "acceptsReservations": "True"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <a href="/" aria-label="Osteria Lupo home"><img src="/logo.svg" alt=""></a>
+    <button type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </header>
+
+  <main>
+    <h1>Book a table</h1>
+    <p>Dinner from 5pm, Tuesday to Sunday. <a href="/menu">See tonight's menu</a>.</p>
+
+    <form action="/reserve" method="post"
+          toolname="reserve_table"
+          tooldescription="Reserve a table at Osteria Lupo. Fills the form; the person confirms by pressing Reserve.">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" autocomplete="name" required>
+
+      <label for="email">Email for the confirmation</label>
+      <input type="email" id="email" name="email" autocomplete="email" required>
+
+      <label for="party">Party size</label>
+      <select id="party" name="party_size" toolparamdescription="Number of guests, 1 to 8">
+        <option>2</option><option>4</option>
+      </select>
+
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Reserve</button>
+    </form>
+
+    <h2>Tonight</h2>
+    <p>Tables open at 5:30, 7:00 and 9:15.</p>
+
+    <h2>This week</h2>
+    <p>Closed Monday. Friday and Saturday book out about two days ahead.</p>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

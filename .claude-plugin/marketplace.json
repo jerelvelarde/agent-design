@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-design",
+  "metadata": {
+    "description": "Design and critique AI agent experiences: behavior, interface, and agent-readability."
+  },
+  "owner": {
+    "name": "Jerel Velarde"
+  },
+  "plugins": [
+    {
+      "name": "agent-design",
+      "description": "Design and critique AI agent experiences: behavior contracts, agent interfaces and generative UI, and agent-readable pages and tools. One skill, four commands, 36 named tells, and a markup checker.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Jerel Velarde"
+      },
+      "source": "./",
+      "category": "design",
+      "tags": ["design", "agents", "ux", "generative-ui", "accessibility", "mcp", "skills"]
+    }
+  ]
+}
