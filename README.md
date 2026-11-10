@@ -1,6 +1,6 @@
 # agent-design
 
-**Your agent has a UX whether you designed it or not.**
+![Your agent has a UX whether you designed it or not.](assets/hero.png)
 
 A skill for coding agents that designs and critiques AI agent experiences: how the agent behaves, the interface it works through, and how readable your product is to other agents. Works in Claude Code, Cursor, Codex and anything else that reads `SKILL.md`.
 
@@ -44,7 +44,11 @@ Your coding agent also picks the skill up without the slash command when you ask
 
 ## The tells
 
-Thirty-six named ways agent experiences go wrong, each with the good version next to it. A few:
+Thirty-six named ways agent experiences go wrong, each with the good version next to it.
+
+![The Mystery Approval: "The agent wants to run a command" next to "Delete 3 branches merged more than 30 days ago. This can't be undone."](assets/tell-mystery-approval.png)
+
+A few more:
 
 | | Bad | Good |
 |---|---|---|
